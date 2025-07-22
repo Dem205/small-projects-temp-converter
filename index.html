@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature converter app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Temperature Converter 🌡</h2>
+        <p>Convert temperatures instantly. ❄</p>
+    </header>
+
+    <div class="hero">
+        <h2>Enter your temperature...</h2>
+        <div class="display">
+            <div class="img"></div>
+            <h1 id = "output">0°</h1>
+            <p>Enter your temperature below 👌</p>
+        </div>
+        <div class="form">
+             <form action="">
+        <input type="number" id="celsius" name="celsius" placeholder="Enter Temperature"> <br>
+        <input type="radio" id="toFahrenheit" name="convert">
+        <label for="toFahrenheit">Celsius To Fahrenheit</label> <br>
+        <input type="radio" id="toCelsius" name="convert">
+        <label for="toFahrenheit">Fahrenheit To Celsius</label> <br>
+        <button id="btn" onclick="result()">Convert</button>
+        </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h3>Made with ❤ By Demi</h3>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

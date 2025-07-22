@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Space Grotesk", sans-serif;
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 100vh;
+}
+header{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.display{
+    max-width: auto;
+    height: 200px;
+    min-width: 300px;
+    background: url('Images/1000314694.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.display h1{
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.display p{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.form{
+    min-width: 300px;
+}
+
+#celsius, #btn{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+#btn{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footer h3{
+    font-size: 13px;
+    font-weight: 600;
+    padding: .7em;
+    color: black;
+    background-color: #f0f0f0;
+    border-radius: 1000px;
+    max-width: fit-content;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h3::after{
+    content: "";
+    position: absolute;
+    width: 102%;
+    height: 107%;
+    background-image: linear-gradient(to bottom right, #9217fd, #ff00ff);
+    border-radius: 10000px;
+    z-index: -1;
+}
+
+@media (max-width: 768px){
+    header h2{
+        text-align: center;
+        font-size: 1rem;
+        width: 100%;
+    }
+    header p{
+        display: none;
+    }
+    .hero{
+        padding: 10px;
+        margin-top: 50px;
+    }
+    .display{
+        height: 150px;
+    }
+    .display h1{
+        font-size: 2rem;
+    }
+    #celsius, #btn{
+        padding: 8px;
+    }
+}
