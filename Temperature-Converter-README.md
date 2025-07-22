@@ -2,12 +2,12 @@
 # 🌡️ Temperature Converter Web App  
 [![Status](https://img.shields.io/badge/status-active-brightgreen)]() [![License](https://img.shields.io/badge/license-MIT-blue)]() [![Made with ❤️ by Demi](https://img.shields.io/badge/made%20by-Demi-blueviolet)]()
 
-The **Temperature Converter App** is a lightweight, browser-based application that allows users to convert temperatures between Celsius, Fahrenheit, and Kelvin. Built with **HTML**, **CSS**, and **JavaScript**, this app offers a smooth and interactive experience.  
+The **Temperature Converter App** is a lightweight, browser-based application that allows users to convert temperatures between Celsius and Fahrenheit. Built with **HTML**, **CSS**, and **JavaScript**, this app offers a smooth and interactive experience.  
 
 ---
 
 ## ✨ Features
-✅ Convert between Celsius, Fahrenheit, and Kelvin.  
+✅ Convert between Celsius and Fahrenheit.  
 ✅ Clean, user-friendly interface.  
 ✅ Instant conversion on button click.  
 ✅ Responsive design for all devices.  
